@@ -1,8 +1,13 @@
-.sectionButtons, .contact, .education, .work, .volunteer {
-	display: none;
-	text-align: center;
+body {
+	background: url(Nature_focus_moss_macro_blurred_1920x1200.jpg) no-repeat fixed;
+	background-size: 100% 100%;
 }
-
+header {
+	text-align: center;
+	font: bold 150% "Trebuchet MS", Tahoma, sans-serif;
+	color: black;
+	margin: 5% auto 0 auto;
+}
 img {
 	display: block;
 	margin: 4% auto;
@@ -11,9 +16,12 @@ img {
 	border: solid black 4px;
 	border-radius: 50%
 }
-
+.sectionButtons, .contact, .education, .work, .volunteer {
+	display: none;
+	text-align: center;
+}
 button {
-	background-color: rgb(37, 92, 87);
+	background-color: rgb(37,92,87);
 	color: rgb(247,238,191);
     border: outset black 3px;
     opacity: 0.85;
@@ -25,37 +33,24 @@ button {
     height: 4%;
     box-shadow: 1px 1px 1px 1px rgb(255,225,135);
 }
-
-.contactButton, .educationButton, .workButton, .volunteerButton{
-	display: inline-block;
-	margin: 1% 0.5%;
-}
-
 button:hover {
 	background-color: rgb(255,225,115);
 	color: black;
 }
-
-body {
-	background: url(Nature_focus_moss_macro_blurred_1920x1200.jpg) no-repeat fixed;
-	background-size: 100% 100%;
+.contactButton, .educationButton, .workButton, .volunteerButton {
+	display: inline-block;
+	margin: 1% 0.5%;
 }
-
-header {
-	text-align: center;
-	font: bold 150% "Trebuchet MS", Tahoma, sans-serif;
-	color: black;
-	margin-top: 5%;
-	margin-left: auto;
-	margin-right: auto;
-}
-
 section {
 	background-color: rgb(255,225,115);
 	font: 85%/125% "Trebuchet MS", Tahoma, sans-serif;
 	border-radius: 35px;
 	border: 2px solid black;
 	padding: 3% 3%;
+	opacity: 0.85;
+}
+h3 {
+	text-decoration: underline;
 }
 .sectionButtons {
 	background-color: transparent;
@@ -65,33 +60,22 @@ section {
 	text-align: center;
 	margin: 1% 35%;
 	word-wrap: break-word;
-	opacity: 0.75;
 }
 .contact a {
 	text-decoration: none;
 	color: blue;
 }
-
 .education, .work, .volunteer {
 	text-align: left;
 	margin: 1% 12%;
-	opacity: 0.75;
 }
 .education {
-	margin-right: 30%;
-	margin-left: 30%;
-	padding-left: 6%;
-	padding-right: 5%;
+	margin: 0 30%;
+	padding: 3% 5% 3% 6%;
 }
-
 ul {
 	list-style-type: square;
 }
-
-h3 {
-	text-decoration: underline;
-}
-
 .education li:first-child {
 	margin-top: -3%;
 }
